@@ -91,6 +91,3 @@ class CreditCard
         }
     }
 }
-
-$cc = new CreditCard();
-echo $cc->getType("371449635398431");

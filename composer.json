@@ -17,6 +17,5 @@
             "App\\": "app/",
             "Vendor\\Package\\": "packages/Vendor/Package/src"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
