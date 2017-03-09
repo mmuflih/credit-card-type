@@ -1,0 +1,22 @@
+{
+    "name": "muflih/credit-card-type",
+    "description": "Identify Credit Card Type",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhammad Muflih Kholidin",
+            "email": "mmuflih@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Vendor\\Package\\": "packages/Vendor/Package/src"
+        }
+    },
+    "minimum-stability": "dev"
+}

@@ -1,5 +1,14 @@
 <?php
 
+/**
+ * @author M. Muflih Kholidin
+ * mmuflic@gmail.com
+ * https://github.com/mmuflih
+ * 2017/03/09 14:26
+ */
+
+namespace Card;
+
 class CreditCard
 {
     public function getType($creditCardNumber)
