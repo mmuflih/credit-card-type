@@ -14,10 +14,15 @@
     ],
     "autoload": {
         "psr-4": {
-            "App\\": "app/",
-            "Vendor\\Package\\": "packages/Vendor/Package/src"
+            "Card\\": "src/Card/"
         }
     },
-    "minimum-stability": "dev",
-    "prefer-stable" : true
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit; ./vendor/bin/php-cs-fixer fix -v --diff --dry-run;",
+        "phpunit": "./vendor/bin/phpunit;",
+        "phpcs": "./vendor/bin/php-cs-fixer fix -v --diff --dry-run;"
+    }
 }
